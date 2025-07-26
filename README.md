@@ -2,8 +2,6 @@
 
 ~ By Emmanuel Rassou
 
-![Latent Replay Transformer Fighting Language Forgetting in a low-resourced setting](images/CoverImage.png)
-
 ## Abstract
 Neural machine translation becomes a continual learning challenge as language evolves over time. While Transformer-based models excel at capturing linguistic patterns from large corpora, they require continual updates to adapt to new language use without losing previously acquired knowledge. In this work, we introduce Latent Replay Buffers to the NLP domain for the first time by implementing and fine-tuning our *Latent Replay Transformer*. We conduct initial experiments on low-resource languages and compact models such as Small-100, which are well-suited for deployment in memory- and data-constrained environments. Our findings reveal an intriguing trade-off in the selection of latent activations to store for effective replay. We release our code to support both the Continual Learning and NLP for Low-Resourced Languages communities.
 
