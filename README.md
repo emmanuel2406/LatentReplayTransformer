@@ -15,4 +15,3 @@ We adapt the Replay Buffer implementation for computer vision in https://github.
 - We use the Small-100 model from the `small-100` folder, and the configuration used is defined in `core/main.py`.
 - Custom dataloader for Flores-200 in `core/load_flores200.py`.
 - Helper scripts for training and inference in `scripts/`
-- Model checkpoints for different latent layer numbers in `model_checkpoints/`.
